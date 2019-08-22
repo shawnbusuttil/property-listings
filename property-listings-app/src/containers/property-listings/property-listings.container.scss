@@ -1,0 +1,19 @@
+.property-listings {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	
+	> * {
+		margin: 20px auto
+	}
+	
+	h1 {
+		text-align: center;
+	}
+	
+	&-content {
+		font-size: 1.2rem;
+		text-align: center;
+	}
+}
